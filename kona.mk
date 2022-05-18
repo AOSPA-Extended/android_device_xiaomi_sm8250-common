@@ -292,6 +292,10 @@ PRODUCT_PACKAGES += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+ifneq ($(DEVICE_IS_AB),true)
+PRODUCT_BUILD_SUPER_PARTITION := false
+endif
+
 # Platform
 TARGET_BOARD_PLATFORM := kona
 
