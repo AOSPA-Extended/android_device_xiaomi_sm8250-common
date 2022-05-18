@@ -161,3 +161,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
+
+# Fastboot
+PRODUCT_PACKAGES += \
+    fastbootd
