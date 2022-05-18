@@ -154,3 +154,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.sensor.pickup=xiaomi.sensor.pickup
+
+# DRM
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
+
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4-service.clearkey
