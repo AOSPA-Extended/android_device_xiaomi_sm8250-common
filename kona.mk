@@ -129,3 +129,8 @@ PRODUCT_PACKAGES += \
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
+# Data
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.vendor.data.mode=concurrent \
+    ro.vendor.use_data_netmgrd=true
