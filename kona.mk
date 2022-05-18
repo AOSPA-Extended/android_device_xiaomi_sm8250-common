@@ -268,6 +268,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Platform
 TARGET_BOARD_PLATFORM := kona
 
+# QCOM QTI Common
+TARGET_COMMON_QTI_COMPONENTS := all
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
