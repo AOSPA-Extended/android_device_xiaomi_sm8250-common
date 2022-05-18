@@ -223,6 +223,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # GPS
 LOC_HIDL_VERSION = 4.0
 
+# GSI
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
