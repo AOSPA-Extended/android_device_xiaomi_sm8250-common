@@ -211,3 +211,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Netflix
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q8250-19134-1
+
+# Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
