@@ -173,3 +173,6 @@ PRODUCT_COPY_FILES += \
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
+
+# GPS
+LOC_HIDL_VERSION = 4.0
