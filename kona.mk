@@ -143,3 +143,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.qdcm.mode_combine=1 \
     vendor.display.use_layer_ext=0 \
     vendor.display.use_smooth_motion=0
+
+# DPM
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.dpmhalservice.enable=1
