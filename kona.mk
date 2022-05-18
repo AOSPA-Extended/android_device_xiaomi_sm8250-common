@@ -114,3 +114,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cp.qc3p5_vfloat_offset_uv=110000 \
     persist.vendor.pps.disallowed=1 \
     persist.vendor.hvdcp_opti.disallowed=1
+
+# Config Store
+PRODUCT_PACKAGES += \
+    disable_configstore
